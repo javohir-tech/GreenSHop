@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Green Shop</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, inital-scale=1">
+        <link rel="stylesheet" href="bezaklar/shared.css">
+        <link rel="stylesheet" href="bezaklar/shoppage.css">
+        <link rel="stylesheet" href="bezaklar/main.css">
+    </head>
+    <body>
+        <!--header section-->
+        <header class="header-section" id="header-section">
+            <div class="container">
+                <div class="row align-items-center justify-content-between">
+ <div class="brend-logo col">
+                   <h2>LOGO</h2>
+                </div>
+                <div class="header-navigation col">
+                    <nav class="header-navigation__items">
+                        <ul class="list-inline">
+                            <li class="list-inline-item"> 
+                                <a href="index.html">Home</a>
+                            </li>
+                            <li class="list-inline-item active"> 
+                                <a href="shoppage.html">Shop</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#">Plant care</a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="#">Blogs</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="header-registor col">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                    <button type="submit" class="button header-registor__button"><i class="fa fa-sign-in" aria-hidden="true"></i>kirish</button>
+                </div>
+                </div>     
+            </div>
+        </header>
+        <!--/header section-->
+        <div class="container line-hr"><hr></div>
+
+        <!-- shop page -->
+        <div class="container">
+            <section class="shop-section" id="shop-section">
+              <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                  <li class="breadcrumb-item"><a href="#">Home</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Shop</li>
+                </ol>
+              </nav>
+            <div class="row">
+                <!-- left -->
+                <div class="col-6 shop-images">
+                    <div class="row">
+                        <div class="col-3 d-flex flex-column align-items-between img-categories-left" >
+                            <div class="img-categories__item mb-3 ">
+                                <img src="bezaklar/medialar/main-imge.png" class="img-fluid" alt="img categories">
+                            </div>
+                            <div class="img-categories__item mb-3  ">
+                                <img src="bezaklar/medialar/main-imge.png" class="img-fluid" alt="img categories">
+                            </div>
+                            <div class="img-categories__item mb-3">
+                                <img src="bezaklar/medialar/main-imge.png" class="img-fluid" alt="img categories">
+                            </div>
+                            
+                        </div>
+                        <div class="col-9  img-categories-right">
+                        <div class="img-categories__item">
+                            <img src="bezaklar/medialar/main-imge.png" class="img-fluid" alt="img categories">
+                        </div> 
+                    </div>
+                    </div>
+                    
+                </div>
+                 <!-- /left -->
+                 <!-- rigth -->
+                <div class="col-6">
+                    <div class="section-subtitle">
+                        Barberton Daisy
+                    </div>
+                    <div class="d-flex justify-content-between price">
+                        <div class="flower-price">
+                            119.00$
+                        </div>
+                        <div class="price-icons d-flex ">
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star" aria-hidden="true"></i>
+                            <i class="fa fa-star negative" aria-hidden="true"></i>
+                            <p>19 Customer Review</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="flower-description">
+                        <h5 class="info-header">Short Description:</h5>
+                        <p>
+                            The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. 
+                        </p>
+                    </div> 
+                    <!-- flower size -->
+                    <div class="flower-size">
+                        <h5  class="info-header">
+                            Size:
+                        </h5>
+                        <div class="flower-size__items d-flex ">
+                            <div class="flower-size__item ">
+                                <a href="#">S</a>
+                            </div>
+                            <div class="flower-size__item">
+                                <a href="#">M</a>
+                            </div>
+                            <div class="flower-size__item">
+                                <a href="#">L</a>
+                            </div>
+                            <div class="flower-size__item">
+                                <a href="#">XL</a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- flowers sale -->
+                    <div class="flower-sale">
+                        <div class="d-flex align-items-center justify-content-xl-evenly zaybal">
+                            <div class="amount">
+                               <a href="#"><i class="fa fa-plus" aria-hidden="true"></i></a>
+                            </div>
+                            <div class="amount-number">
+                                <input type="number" id="nuber" placeholder="1">
+                            </div>
+                            <div class="amount">
+                                <a href="#"><i class="fa fa-minus" aria-hidden="true"></i></a>
+                            </div>
+
+                            <button type="button" class="button">SHOP NOW</button>
+                            <button type="button" class="button-outline">Add to cart</button>
+                            <div class="like-button">
+                                <a href="#"><i class="fa fa-heart" aria-hidden="true"></i></a>
+                            </div>
+                        </div>
+                        <!-- adres -->
+                        <div class="flower-adres d-none d-xl-block">
+                            <h5>SKU: <p> 1995751877966</p></h5>
+                            <h5>Categories: <p>Potter Plants</p></h5>
+                            <h5>Tags:<p> Home, Garden, Plants</p></h5>
+                            <div class="d-flex flower-adres__icons">
+                                <h5 class="flower-icons__header">Share this products:</h5>
+                                <i class="fa-brands fa-facebook" aria-hidden="true"></i>
+                                <i class="fa-brands fa-twitter" aria-hidden="true"></i>
+                                <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- /rigth -->
+            </div>
+        </section>
+    </div>
+        <!-- /shop page -->
+
+        <!-- room section -->
+        <div class="container">
+            <section class="room-section">
+                <nav class="room-section__navigation">
+                    <ul class="list-inline">
+                        <li class="list-inline-item active">
+                            <a href="#">Product Description</a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="#">Reviews (19)</a>
+                        </li>
+                    </ul>
+                </nav>
+                <hr>
+                <div class="room-description">
+                    <p>
+                        The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam fringilla augue nec est tristique auctor. Donec non est at libero vulputate rutrum. Morbi ornare lectus quis justo gravida semper. Nulla tellus mi, vulputate adipiscing cursus eu, suscipit id nulla.
+                    </p>
+                    <p>
+                        Pellentesque aliquet, sem eget laoreet ultrices, ipsum metus feugiat sem, quis fermentum turpis eros eget velit. Donec ac tempus ante. Fusce ultricies massa massa. Fusce aliquam, purus eget sagittis vulputate, sapien libero hendrerit est, sed commodo augue nisi non neque. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed tempor, lorem et placerat vestibulum, metus nisi posuere nisl, in accumsan elit odio quis mi. Cras neque metus, consequat et blandit et, luctus a nunc. Etiam gravida vehicula tellus, in imperdiet ligula euismod eget. The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. 
+                    </p>
+                    <h5>
+                        Living Room:
+                    </h5>
+                     <p>
+                        The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                     </p>
+                     <h5>
+                        Dining Room:
+                     </h5>
+                     <p>
+                        The benefits of houseplants are endless. In addition to cleaning the air of harmful toxins, they can help to improve your mood, reduce stress and provide you with better sleep. Fill every room of your home with houseplants and their restorative qualities will improve your life.
+                     </p>
+                     <h5>
+                        Office:
+                     </h5>
+                     <p>
+                        The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. The ceramic cylinder planters come with a wooden stand to help elevate your plants off the ground. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                     </p>
+                </div>
+            </section>
+        </div>
+
+        <!-- /room scetion -->
+
+        <!-- Releted Products section -->
+        <div class="container">
+            <section class="product-section">
+                <div class="d-flex justify-content-between">
+                    <div class="row">
+                        <div class="col-2">
+                        <figure class="figure">
+                            <img src="bezaklar/medialar/b1.png" alt="flower image" class="img-fluid figure-img">
+                            <div class="figure-overlay">
+                                <a href="#">
+                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                </a>
+                                <a href="#"><i class="fa fa-search" aria-hidden="true"></i>
+                                </a>                                
+                               </div>
+                            <figcaption class="figure-caption">
+                                <p>Barberton Daisy</p>
+                                <h5>$119.00</h5>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-2">
+                        <figure class="figure">
+                            <img src="bezaklar/medialar/b3.png" alt="flower image" class="img-fluid figure-img">
+                            <div class="figure-overlay">
+                                <a href="#">
+                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                </a>
+                                <a href="#"><i class="fa fa-search" aria-hidden="true"></i>
+                                </a>                                
+                               </div>
+                            <figcaption class="figure-caption">
+                                <p>Barberton Daisy</p>
+                                <h5>$119.00</h5>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-2">
+                        <figure class="figure">
+                            <img src="bezaklar/medialar/b2.jpg" alt="flower image" class="img-fluid figure-img">
+                            <div class="figure-overlay">
+                                <a href="#">
+                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                </a>
+                                <a href="#"><i class="fa fa-search" aria-hidden="true"></i>
+                                </a>                                
+                               </div>
+                            <figcaption class="figure-caption">
+                                <p>Barberton Daisy</p>
+                                <h5>$119.00</h5>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-2">
+                        <figure class="figure">
+                            <img src="bezaklar/medialar/b4.png" alt="flower image" class="img-fluid figure-img">
+                            <div class="figure-overlay">
+                                <a href="#">
+                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                </a>
+                                <a href="#"><i class="fa fa-search" aria-hidden="true"></i>
+                                </a>                                
+                               </div>
+                            <figcaption class="figure-caption">
+                                <p>Barberton Daisy</p>
+                                <h5>$119.00</h5>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-2">
+                        <figure class="figure">
+                            <img src="bezaklar/medialar/b5.png" alt="flower image" class="img-fluid figure-img">
+                            <div class="figure-overlay">
+                                <a href="#">
+                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                </a>
+                                <a href="#"><i class="fa fa-search" aria-hidden="true"></i>
+                                </a>                                
+                               </div>
+                            <figcaption class="figure-caption">
+                                <p>Barberton Daisy</p>
+                                <h5>$119.00</h5>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-2">
+                        <figure class="figure">
+                            <img src="bezaklar/medialar/b6.png" alt="flower image" class="img-fluid figure-img">
+                            <div class="figure-overlay">
+                                <a href="#">
+                                    <i class="fa fa-shopping-cart" aria-hidden="true"></i>
+                                </a>
+                                <a href="#">
+                                    <i class="fa fa-heart" aria-hidden="true"></i>
+                                </a>
+                                <a href="#"><i class="fa fa-search" aria-hidden="true"></i>
+                                </a>                                
+                               </div>
+                            <figcaption class="figure-caption">
+                                <p>Barberton Daisy</p>
+                                <h5>$119.00</h5>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    </div>
+                    
+                    
+                </div>
+            </section>
+        </div>
+        <!-- /Releted Products section -->
+
+
+
+
+
+
+
+ <!-- footer secation -->
+
+ <div class="container">
+    <footer class="footer-section" id="footer-section">
+        <div class="footer-section__cards">
+            <div class="footer-section__card footer-card-1">
+                <span class="material-symbols-outlined">
+                    image
+                    </span>
+                <h4>Garden Care</h4>
+                <p>We are an online plant shop offering a wide range of cheap and trendy plants.</p>
+            </div>
+            <div class="footer-section__card footer-card-2">
+                <div class="material-symbols-outlined">
+                    image
+                </div>
+                <h4>Plant Renovation</h4>
+                <p>We are an online plant shop offering a wide range of cheap and trendy plants.</p>
+            </div>
+            <div class="footer-section__card footer-card-3">
+                <span class="material-symbols-outlined">
+                    image
+                    </span>
+                <h4>Watering Graden</h4>
+                <p>We are an online plant shop offering a wide range of cheap and trendy plants.</p>
+            </div>
+            <div class="footer-section__card footer-card-4">
+                <h4>Would you like to join newsletters?</h4>
+                <form action="#">
+                   <label for="email-adres"></label>
+                   <input type="email" id="email-adres" placeholder="Email manzilingizni qoldiring"> 
+                   <button type="button" class="button footer-button" >Join</button>
+                </form>
+                <p>We usually post offers and challenges in newsletter. We’re your online houseplant destination. We offer a wide range of houseplants and accessories shipped directly from our (green)house to yours! </p>
+            </div>
+        </div>
+        <!--my adres-->
+        <div class="my-adres">
+            <div class="my-adre__logo">
+                <h2>greenshop</h2>
+            </div>
+            <div class="my-adres__map my-adres__links">
+                <i class="fa fa-map-marker" aria-hidden="true"></i>                   
+                Toshkent viloyati Angren Shahari
+            </div>
+            <div class="my-adres__email my-adres__links">
+                <i class="fa fa-envelope" aria-hidden="true"></i>                     
+                    suvonovjavohir625@gmail.com
+            </div>
+            <div class="my-adres__number my-adres__links">
+                <i class="fa fa-phone" aria-hidden="true"></i>
+                +998 90 007 29 04
+            </div>
+        </div>
+         <!--/my adres-->
+
+         <!-- footer section addition -->
+         <div class="footer-section__addition">
+            <div class="row">
+                <div class="col-3 footer-section__menu">
+                    <h4>My Account</h4>
+                    <ul class="footer-categories__items">
+                        <li class="footer-categories__item">
+                            <a href="#">My Account</a>
+                        </li>
+                        <li class="footer-categories__item">
+                            <a href="#">Our stores</a>
+                        </li>
+                        <li class="footer-categories__item">
+                            <a href="#">Contact us</a>
+                        </li>
+                        <li class="footer-categories__item">
+                            <a href="#">Career</a>
+                        </li>
+                        <li class="footer-categories__item">
+                            <a href="#">Specials</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-3 footer-section__menu">
+                    <h4>Help & Guide</h4>
+                    <ul class="footer-categories__items">
+                        <li class="footer-categories__item">
+                            <a href="#">Help Center</a>
+                        </li>
+                        <li class="footer-categories__item">
+                            <a href="#">How to Buy</a>
+                        </li>
+                        <li class="footer-categories__item">
+                            <a href="#">Shipping & Delivery</a>
+                        </li>
+                        <li class="footer-categories__item">
+                            <a href="#">Product Policy</a>
+                        </li>
+                        <li class="footer-categories__item">
+                            <a href="#">How to Return</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-3 footer-section__menu">
+                    <h4>Categories</h4>
+                    <ul class="footer-categories__items">
+                        <li class="footer-categories__item">
+                            <a href="#">House Plants</a>
+                        </li>
+                        <li class="footer-categories__item">
+                            <a href="#">Potter Plants</a>
+                        </li>
+                        <li class="footer-categories__item">
+                            <a href="#">Seeds</a>
+                        </li>
+                        <li class="footer-categories__item">
+                            <a href="#">Small Plants</a>
+                        </li>
+                        <li class="footer-categories__item">
+                            <a href="#">Accessories</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-3 footer-section__menu">
+                    <h4>Social Media</h4>
+                    <div class="social-media">
+                        <a href="https://www.instagram.com/suvonov_javohir1/#"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+                        <a href="https://t.me/javohir_music2"><i class="fa-brands fa-telegram" aria-hidden="true"></i></a>
+                        <a href="https://youtu.be/iwcqAfHLWI8?si=QWlgJJnX6ZaFHyoH"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
+                    </div>
+                    <div class="we-accept">
+                    <h4>
+                        We accept
+                    </h4>
+                    <img src="bezaklar/medialar/cards.png" alt="we card img" class="img-fluid">
+                    </div>
+                </div>
+            </div>
+         </div>
+          <!-- /footer section addition -->
+         <div class="end-box">
+            <p>© 2021 GreenShop. All Rights Reserved.</p>
+         </div>
+    </footer>
+</div>
+<!-- /footer secation -->

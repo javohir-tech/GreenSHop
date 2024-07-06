@@ -1,0 +1,267 @@
+body{
+    margin: 0;
+}
+
+.button{
+    font-size: 1rem;
+    font-weight: 500;
+    color: rgba(255, 255, 255, 1);
+    line-height: 1.25rem;
+    padding:0.635rem 1.25rem;
+    background-color: rgba(70, 163, 88, 1);
+    border-radius: 5px;
+    border: none;
+}
+
+.button-outline{
+    border: 1px solid rgba(70, 163, 88, 1);
+    border-radius: 5px;
+    padding: 0.625rem 1.25rem;
+    color: rgba(70, 163, 88, 1);
+    font-size: 1rem;
+    font-weight: 500;
+    line-height:1.25rem;
+    background-color: #fff;
+    transition: all 0.3s ease-in-out;
+}
+
+.button-outline:hover{
+    background-color:  rgba(70, 163, 88, 1);
+    color: rgba(255, 255, 255, 1);
+}
+
+.section-subtitle{
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1rem;
+    color: rgba(61, 61, 61, 1);
+    margin-bottom: 1rem;
+}
+
+.section-title{
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.5rem;
+    color: rgba(114, 114, 114, 1);
+    margin-bottom: 1rem;
+}
+
+.line-hr{
+    color:#294B29;
+    margin-top: 4.5rem;
+}
+
+a{
+    text-decoration: none;
+}
+/*header section*/
+
+.header-section{
+    position: fixed;
+    z-index: 3;
+    width: 100%;
+    top: 0;
+    background-color: whitesmoke;
+    box-shadow: 0px 3px 16px 0px rgb(0 0 0  / 10%);
+}
+
+.brend-logo h2{
+    color: #294B29;
+}
+
+.list-inline-item a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-right: 1rem;
+    line-height: 1.25rem;
+    color: rgba(61, 61, 61, 1);
+    transition: all 0.3s ease-in;
+    padding-bottom: 1rem;
+}
+
+.active a{
+    color: rgba(70, 163, 88, 1);
+    border-bottom: solid 3px rgba(70, 163, 88, 1);
+    border-radius: 2px;
+}
+
+.list-inline-item:hover a{
+    color: rgba(70, 163, 88, 1);
+}
+
+.header-registor {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.header-registor i{
+    padding-right: 0.8rem;
+    font-size: 1.25rem;
+    color: rgba(61, 61, 61, 1);
+    transition: all 0.3s ease-in;
+}
+
+.header-registor i:hover{
+    scale: 1.1;
+    color: rgba(70, 163, 88, 1);
+}
+
+.header-registor__button a,
+.header-registor__button i{
+    color: white;
+    padding-right: 0.5rem;
+    
+}
+
+/* footer section */
+
+/* fooetr section */
+
+.footer-section{
+    padding-top: 3rem; 
+    padding-bottom: 10rem;
+}
+
+.footer-section__cards{
+    display: flex;
+    background-color: rgba(251, 251, 251, 1);
+    box-sizing: border-box;
+    padding: 1rem;
+}
+
+.footer-section__card{
+    padding: 1rem;
+    box-sizing: border-box;
+    border-right: solid 2px #294B29;
+}
+
+.footer-section__card h4{
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1rem;
+    color: rgba(61, 61, 61, 1);
+    margin-bottom: 1.25rem;
+}
+
+.footer-section__card p{
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.375rem;
+    color: rgba(114, 114, 114, 1);
+}
+
+.material-symbols-outlined{
+    display: block;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.footer-card-3,.footer-card-4{
+    border: none;
+}
+
+.footer-card-4 input{
+    width: 50%;
+    padding: 0.625rem 1.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-weight: 500;
+    border: none;
+    background-color: white;
+}
+
+.footer-card-4 input:focus{
+    outline: none;
+}
+
+.footer-card-4 form{
+    margin-bottom: 0.5rem;
+}
+
+/* my adres */
+
+.my-adres{
+    display: flex;
+    justify-content: space-around;
+    box-sizing: border-box;
+    padding: 1rem;
+    background-color:#43766C ;
+}
+
+.my-adre__logo h2{
+    text-transform: uppercase;
+    font: 1.25rem;
+    font-weight: 700;
+    color: rgba(70, 163, 88, 1);
+}
+
+.my-adres__links i{
+    font-size: 1rem;
+    color: rgba(70, 163, 88, 1);
+    margin-right: 1rem;
+    display: inline-block;
+    align-self: center;
+}
+
+.my-adres__links{
+    color: rgba(61, 61, 61, 1);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    align-self: center;
+}
+
+/*footer section addition*/
+
+.footer-section__addition{
+    padding: 1rem;
+    background-color:rgba(251, 251, 251, 1);
+}
+
+.footer-section__menu h4{
+    font-size: 1.125rem;
+    font-weight: 700;
+    line-height: 1rem;
+    color: rgba(61, 61, 61, 1);
+}
+
+.footer-categories__item{
+    display: block;
+}
+
+.footer-categories__item a{
+    text-decoration: none;
+    font-size: 0.875rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+    color: rgba(61, 61, 61, 1);
+}
+
+.social-media i{
+    font-size: 1.5rem;
+    color: rgba(70, 163, 88, 1);
+    margin: 1rem;
+    padding: 5px;
+    border: solid 2px rgba(70, 163, 88, 1);
+    border-radius: 5px;
+}
+
+.we-accept img{
+    margin-top: 1rem;
+}
+
+.end-box p{
+    text-align: center;
+    margin-top: 0.5rem;
+    font-weight: 400;
+    font-size: 0.875rem;
+    line-height: 1.875rem;
+    color: rgba(61, 61, 61, 1);
+}
+
+/*  / footer section  */
+
+
+
